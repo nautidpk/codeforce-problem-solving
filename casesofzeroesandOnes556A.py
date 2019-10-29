@@ -1,0 +1,5 @@
+n=int(input())
+testStr=input()
+ones=testStr.count("1")
+zeroes=testStr.count("0")
+print(abs(ones-zeroes))

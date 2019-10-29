@@ -1,0 +1,10 @@
+nOfMagnets=int(input())
+i=0;ans=0
+pre=""
+while(i<nOfMagnets):
+    cur=input()
+    if(cur!=pre):
+        ans+=1
+        pre=cur
+    i+=1
+print(ans)

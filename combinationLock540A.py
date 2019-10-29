@@ -1,0 +1,10 @@
+n=int(input())
+a=input()
+b=input()
+i=0;summ=0
+while(i<n):
+    aa=int(a[i])
+    bb=int(b[i])
+    summ+=(min(abs(aa-bb),abs(aa+10-bb),abs(bb-aa+10)))
+    i+=1
+print(summ)

@@ -1,0 +1,10 @@
+i=0
+onesposx=0;onesposy=0
+while(i<5):
+	a=input().find("1")
+	if(a>-1):
+		onesposx=i
+		onesposy=a//2
+	i+=1
+steps=abs(onesposx-2)+abs(onesposy-2)
+print(steps)
